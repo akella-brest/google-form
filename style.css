@@ -1,0 +1,161 @@
+body, h1, p {
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    background-color: #ede7f6;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+.header {
+    background-color: #673ab7;
+    height: 200px;
+}
+
+.main {
+    background-color: #ede7f6;
+    height: 1200px;
+    position: absolute;
+}
+
+.content {
+    background-color: #ffffff;
+    position: relative;
+    top: -100px;
+    z-index: 2;
+    width: 50%;
+    height: 100%;
+    border-top: 7px solid #b388ff;
+    margin: auto;
+    box-shadow: 0 0 5px #575757;
+}
+
+h1 {
+    font-size: 38px;
+    margin: 40px;
+    color: #1c1c1b;
+    font-weight: inherit;
+}
+
+.caption-head{
+    color: #1c1c1b;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 13px;
+}
+
+.caption {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-left: 40px;
+    color: #1c1c1b;
+}
+
+input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    outline: none;
+    height: 24px;
+    width: 280px;
+    color: #1c1c1b;
+}
+
+input[type="radio"] {
+    border-radius: 50%;
+    border: 1px solid #cccccc;
+    color: #4c4b48;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 20px;
+    height: 20px;
+    vertical-align: -3px;
+}
+
+label {
+    font-size: 18px;
+}
+
+select {
+    border: none;
+    margin-left: 10px;
+}
+
+#choose {
+    color: #cecbee;
+}
+
+.question {
+    margin-bottom: -20px;
+}
+
+input[type="checkbox"] {
+    font-size: 18px;
+    color: #4c4b48;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    vertical-align: -3px;
+}
+
+.upload {
+    color: #61abf9;
+    display: block;
+    width: 100px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="date"] {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cccccc;
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+input[type="submit"] {
+    border: none;
+    background-color: #4285f4;
+    color: #ffffff;
+    margin: 10px;
+    margin-left: 40px;
+    padding: 8px;
+    border-radius: 2px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.p-footer {
+    color: #988b8d;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 14px;
+}
+
+.footer {
+    color: #776a6c;
+    height: 100px;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 12px;
+}
+
+p > a {
+    color: #776a6c;
+    text-decoration: none;
+}
+
+img {
+    height: 30%;
+}
+
+

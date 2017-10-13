@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <!--<link rel="stylesheet" type="text/css" href="reset.css">-->
+    <link rel="stylesheet" href="style.css">
+    <title> Password request form </title>
+</head>
+
+<body>
+    <div class="header"></div>
+    <div class="main"></div>
+    <div class="content">
+        <form name="g-form" method="post" action="" enctype="multipart/form-data">
+
+            <h1>Password request form</h1>
+            <p class="caption-head">The name and photo associated with your Google account will be recorded when
+                you upload files and submit this form. Not <strong>spas.work@gmail.com?</strong> <a href="#">Switch account</a></p>
+
+
+            <div class="caption">
+                <p class="question">Please fill your name</p><br>
+                <label><input type="text" placeholder="Your answer" class="text"></label>
+            </div>
+
+            <div class="caption">
+                <p>What color you like</p>
+                <label><input type="radio" name="color" value="Red"> Red </label><br>
+                <label><input type="radio" name="color" value="Green"> Green </label><br>
+                <label><input type="radio" name="color" value="Blue"> Blue </label><br>
+                <label><input type="radio" name="color" value="Black"> Black </label><br>
+                <label><input type="radio" name="color" value="White"> White </label><br>
+                <label><input type="radio" name="color" value="Other"> Other: </label><input type="text" id="radio-text"><label for="radio-text"></label>
+            </div>
+
+            <div class="caption">
+                <p class="question">What town you like more?</p><br>
+                <select name="town">
+                    <option value="Choose" disabled selected id="choose">Choose</option>
+                    <option value="Brest">Brest</option>
+                    <option value="Minsk">Minsk</option>
+                    <option value="Grodno">Grodno</option>
+                    <option value="Gomel">Gomel</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+
+            <div class="caption">
+                <p class="question">Please describe (at least 50 symbols on sybols) your
+                favorite programming language</p><br>
+                <label><input type="text" placeholder="Your answer" class="text" maxlength="50"></label>
+            </div>
+
+
+            <div class="caption">
+                <p class="question">What years of education did you really like?</p><br>
+                <label><input type="checkbox" name="years" value="First"> First </label><br>
+                <label><input type="checkbox" name="years" value="Second"> Second </label><br>
+                <label><input type="checkbox" name="years" value="Third"> Third </label><br>
+                <label><input type="checkbox" name="years" value="Fourth"> Fourth </label><br>
+            </div>
+
+            <div class="caption">
+                <p>Please send any image<br></p>
+                <label for="uploadbtn" class="upload">ADD FILE</label>
+                <input style="opacity: 0; z-index: -1;" type="file" name="upload" id="uploadbtn"><br>
+            </div>
+
+            <div class="caption">
+                <p>Set last Monday Monday<br></p>
+                <input type="date" name="image"><br>
+            </div>
+
+            <div>
+                <input type="submit" value="SUBMIT">
+            </div>
+
+            <div class="p-footer">
+                <p>Never submit password through Google Forms.</p>
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <p>This content is neither created nor endorsed by Google. <a href="#">Report Abuse</a> -
+            <a href="#">Terms of Service</a> - <a href="#">Additional Terms</a></p>
+        <img src="images/logo_lockup_forms_icon_horizontal.png" alt="logo">
+    </div>
+</body>
+
+</html>
