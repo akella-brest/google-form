@@ -1,8 +1,20 @@
-body, h1, p {
+body, h1, p, fieldset {
     font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
     padding: 0;
     margin: 0;
     border: 0;
+}
+
+em {
+    color: red;
+    font-style: normal;
+    margin-left: 40px;
+}
+
+.caption > p > em {
+    color: red;
+    font-style: normal;
+    margin-left: 0%;
 }
 
 body {
@@ -37,7 +49,7 @@ p {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 238%;
     margin: 40px;
     color: #1c1c1b;
     font-weight: inherit;
@@ -47,11 +59,11 @@ h1 {
     color: #1c1c1b;
     margin-left: 40px;
     margin-right: 40px;
-    font-size: 13px;
+    font-size: 90%;
 }
 
 .caption {
-    font-size: 24px;
+    font-size: 153%;
     margin-top: 40px;
     margin-left: 40px;
     color: #1c1c1b;
@@ -61,8 +73,8 @@ input[type="text"] {
     border: none;
     border-bottom: 1px solid #cccccc;
     outline: none;
-    height: 24px;
-    width: 280px;
+    height: 35%;
+    width: 55%;
     color: #1c1c1b;
 }
 
@@ -72,13 +84,13 @@ input[type="radio"] {
     color: #4c4b48;
     cursor: pointer;
     margin-bottom: 20px;
-    width: 20px;
+    width: 4%;
     height: 20px;
     vertical-align: -3px;
 }
 
 label {
-    font-size: 18px;
+    font-size: 78%;
 }
 
 select {
@@ -97,7 +109,7 @@ select {
 input[type="checkbox"] {
     font-size: 18px;
     color: #4c4b48;
-    width: 20px;
+    width: 4%;
     height: 20px;
     margin-bottom: 10px;
     vertical-align: -3px;
@@ -118,7 +130,7 @@ input[type="date"] {
     border-right: none;
     border-bottom: 1px solid #cccccc;
     margin-bottom: 40px;
-    font-size: 18px;
+    font-size: 88%;
 }
 
 input[type="submit"] {
@@ -138,7 +150,7 @@ input[type="submit"] {
     margin-left: 40px;
     margin-top: 20px;
     margin-bottom: 40px;
-    font-size: 14px;
+    font-size: 88%;
 }
 
 .footer {
@@ -146,7 +158,7 @@ input[type="submit"] {
     height: 100px;
     margin-top: -50px;
     text-align: center;
-    font-size: 12px;
+    font-size: 78%;
 }
 
 p > a {
